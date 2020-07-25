@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +7,53 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <style>
+
         .green{
             background-color: green;
-            height: 80vh;
+            height: 100vh;
+        }
+/* xs */
+        @media (max-width: 576px) {
+          .green{
+              background-color: red;
+              height: 100vh;
+          }
+        }
+
+/* sm */
+        @media (min-width: 576px) and (max-width: 767px) {
+          .green{
+              background-color: blue;
+              height: 100vh;
+            }
+
+        }
+
+/* md */
+        @media (min-width: 768px) and (max-width: 991px) {
+          .green{
+              background-color: black;
+              height: 100vh;
+            }
+
+        }
+
+/* lg */
+        @media (min-width: 992px) and (max-width: 1199px) {
+          .green{
+              background-color: orange;
+              height: 100vh;
+            }
+
+        }
+
+/* xl */
+        @media (min-width: 1200px)  {
+          .green{
+              background-color: #c1c1c1;
+              height: 100vh;
+            }
+
         }
 
 
