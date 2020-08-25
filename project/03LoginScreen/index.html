@@ -14,43 +14,49 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center">
-                    A Project based aproch to learn modal
-                </h1>
+                <h1 class="text-center">A Project based aproch to learn modal</h1>
                 <p class="text-center">
-                    <a href="#" data-target="#login-model" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login Here</a>
+                    <a href="#" data-target="#login-model" data-toggle="modal" role="button"
+                        class="btn btn-primary btn-lg">Login Here</a>
                 </p>
             </div>
         </div>
     </div>
 
-
     <div class="model fade" id="login-model">
         <div class="model-dialog">
             <div class="modal-content">
                 <div class="model-header text-center">
-                    <img id="img_logo" class="img-thumbnail"src="images/it.jpg" alt="">
+                    <img id="img_logo" class="img-thumbnail" src="images/it.jpg" alt="" />
                 </div>
                 <div id="div-forms">
                     <form>
-                        <div>
-                            <span> your Email and password here :</span>
+                        <div class="modal-body">
+                            <div>
+                                <span> your Email and password here :</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Email" required />
+                            <input type="password" class="form-control" placeholder="Password" required />
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="" id="" />Remember Me
+                                </label>
+                            </div>
                         </div>
-                        <input type="text" class="form-control" placeholder="Email" required>
-                        <input type="password" class="form-control" placeholder="Password" required>
-                        <div class="checkbox"> 
-                            <label>
-                                <input type="checkbox" name="" id="">Remember Me
-                            </label>
-                            
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">LogIn</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">SignUp</button>
 
+                                </div>
+
+                            </div>
                         </div>
-
                     </form>
                 </div>
-
-
-
             </div>
         </div>
     </div>

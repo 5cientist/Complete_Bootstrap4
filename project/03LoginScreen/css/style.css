@@ -9,3 +9,11 @@ body{
     max-height: 100px;
     margin: 0 auto;
 }
+
+#login_model .modal-dialog{
+    width: 350px;
+
+}
+#login_model input[type=text], input[type=password]{
+    marker-top: 10px;
+}
